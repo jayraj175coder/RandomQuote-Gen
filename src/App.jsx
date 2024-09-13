@@ -29,6 +29,7 @@ function App() {
 
   return (
     <div className="app-container">
+      <h1>Random Quote Generator</h1>
       <div className="quote-card">
         <p>{quote}</p>
         <button onClick={fetchQuote} className="button-primary">New Quote</button>
